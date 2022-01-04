@@ -34,11 +34,11 @@ const Navigation = ({ locale, locales }) => {
 
         <div className={styles.navlogo}>
           <a href={homeurl}>
-            {/* <img
+            {<img
               src="https://a.storyblok.com/f/139834/120x80/d5d17b4f00/storyblock-website-music.png"
               alt="Musica logo"
               className=""
-            /> */}
+            />}
             <Image src="/logo-colored-full.png" alt="Musica logo" width="128" height="25" />
           </a>
         </div>
