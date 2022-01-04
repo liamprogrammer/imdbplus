@@ -25,6 +25,7 @@ import TwoCol from './TwoCol'
 import Title from './Title'
 import TopMovies from './TopMovies'
 import Artist from './Artist'
+import ArtistList from './Artistlist'
 
 const Components = {
   'teaser': Teaser,
@@ -53,7 +54,8 @@ const Components = {
   'twocol':TwoCol,
   'title':Title,
   'topmovies':TopMovies,
-  'artist':Artist
+  'artist':Artist,
+  'artistlist' :ArtistList
 }
 
 
