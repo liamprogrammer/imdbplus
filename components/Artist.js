@@ -37,8 +37,7 @@ const Artist = ({ data, level }) => {
           <div className={styles.description}>
             {render(content.description)}
           </div>
-          <div className={styles.song}>
-            {render(content.song)}
+          <div className={styles.mainpicture} style={{ backgroundImage: `url("${content.mainpicture.filename}")` }}>
           </div>
         </div>
       </main>
