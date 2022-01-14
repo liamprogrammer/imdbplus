@@ -39,7 +39,7 @@ const Navigation = ({ locale, locales }) => {
               alt="Musica logo"
               className=""
             />}
-            <Image src="/logo-colored-full.png" alt="Musica logo" width="128" height="25" />
+            {/* <Image src="/logo-colored-full.png" alt="Musica logo" width="128" height="25" /> */}
           </a>
         </div>
         <div className={styles.navlinkswrapper}>
